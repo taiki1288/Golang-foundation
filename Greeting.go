@@ -8,10 +8,9 @@ import (
 // アンダースコア以外に記号を使うことはできない！
 
 func main() {
-	num := 1
-	num01 := 2
-	num_01 := 3
-	num$01 := 4
+	NUM := 1
+	Num := 2
 
-	fmt.Println(num$01)
+	fmt.Println(NUM)
+	fmt.Println(Num)
 }
