@@ -1,13 +1,16 @@
 package main
 
-import ("fmt")
+import (
+	"fmt"
+)
 
-func main(){
+// 変数は数字から始めることができない！
+// アンダースコア以外に記号を使うことはできない！
 
-	fmt.Println("Good evening")
-	
-	fmt.Println("Good morning")
+func main() {
+	NUM := 1
+	Num := 2
 
-	fmt.Println("Good afternoon")
-
+	fmt.Println(NUM)
+	fmt.Println(Num)
 }
