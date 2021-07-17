@@ -5,9 +5,11 @@ import (
 )
 
 func main() {
-	a := [3]string{"yamashita", "yamamoto", "suzuki"}
+	a := [2][2]string{{"yamashita", "yamamoto"}, {{"suzuki", "tanaka"}}
 
-	fmt.Println(a[0])
-	fmt.Println(a[1])
-	fmt.Println(a[2])
+	fmt.Println(a[0][0])
+	fmt.Println(a[0][1])
+	fmt.Println(a[1][0])
+	fmt.Println(a[1][1])
+	
 }
