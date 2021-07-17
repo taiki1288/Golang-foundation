@@ -2,15 +2,17 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
-// 変数は数字から始めることができない！
-// アンダースコア以外に記号を使うことはできない！
-
 func main() {
-	NUM := 1
-	Num := 2
+	num01 := 123
+	var num02 int = 1234567890
+	num03 := 1.23
+	var num04 float64 = 1.23456789
 
-	fmt.Println(NUM)
-	fmt.Println(Num)
+	fmt.Println(reflect.TypeOf(num01))
+	fmt.Println(reflect.TypeOf(num02))
+	fmt.Println(reflect.TypeOf(num03))
+	fmt.Println(reflect.TypeOf(num04))
 }
