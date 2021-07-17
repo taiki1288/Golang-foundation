@@ -1,13 +1,11 @@
 package main
 
-import ("fmt")
+import (
+	"fmt"
+)
 
-func main(){
-
-	fmt.Println("Good evening")
-	
-	fmt.Println("Good morning")
-
-	fmt.Println("Good afternoon")
-
+func main() {
+	var num int
+	nub = 1
+	fmt.Println(num)
 }
