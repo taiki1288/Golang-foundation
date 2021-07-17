@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	var num = 1
+	num := 1
 	fmt.Println(num)
 }
