@@ -2,15 +2,14 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
-// 変数は数字から始めることができない！
-// アンダースコア以外に記号を使うことはできない！
-
 func main() {
-	NUM := 1
-	Num := 2
+	a := 10
+	b := 1
+	num_bool := a < b
 
-	fmt.Println(NUM)
-	fmt.Println(Num)
+	fmt.Println(num_bool)
+	fmt.Println(reflect.TypeOf(num_bool))
 }
