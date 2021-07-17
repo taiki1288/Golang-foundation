@@ -8,7 +8,7 @@ import (
 func main() {
 	a := 10
 	b := 1
-	var num_bool bool = a > b
+	num_bool := a < b
 
 	fmt.Println(num_bool)
 	fmt.Println(reflect.TypeOf(num_bool))
