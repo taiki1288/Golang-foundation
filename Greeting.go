@@ -6,6 +6,6 @@ import (
 
 func main() {
 	var num int
-	nub = 1
+	num = 1
 	fmt.Println(num)
 }
