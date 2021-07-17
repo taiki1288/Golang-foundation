@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"reflect"
 )
 
 func main() {
-	a := 10
-	b := 1
-	num_bool := a < b
+	a := [2][2]string{{"yamashita", "yamamoto"}, {{"suzuki", "tanaka"}}
 
-	fmt.Println(num_bool)
-	fmt.Println(reflect.TypeOf(num_bool))
+	fmt.Println(a[0][0])
+	fmt.Println(a[0][1])
+	fmt.Println(a[1][0])
+	fmt.Println(a[1][1])
+	
 }
